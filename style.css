@@ -1,0 +1,103 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}    
+body {
+    color: #9a9a9a;
+    font-size: 16px;
+    line-height: 1.7;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+.service_bg {
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+}
+.service_bg_01 {
+    background-image: url(img/service_bg_01.jpg)
+}
+.service_bg_02 {
+    background-image: url(img/service_bg_02.jpg)
+}
+.service_bg_03 {
+    background-image: url(img/service_bg_03.jpg)
+}
+.service_bg_04 {
+    background-image: url(img/service_bg_04.jpg)
+}
+
+
+
+
+.section_padding {
+    padding: 80px 0;
+}
+.section_title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.service_meta {
+    padding: 19px;
+}
+.service_meta > h3 {
+    font-size: 20px;
+}
+
+
+
+.readmore_btn {
+    border-radius: 50px;
+    color: #2ecc71;
+    margin-top: 15px;
+    padding: 8px 0px;
+    transition: .3s;
+    display: inline-block;
+}
+
+.readmore_btn i.fa-long-arrow-right {
+    margin-left: 10px;
+}
+
+.readmore_btn:hover {
+    background-color: #2ecc71;
+    padding: 8px 25px;
+    color: #fff;
+}
+
+.single_service_item {
+    transition: all 0.3s ease 0s;
+    border-radius: 20px;
+}
+.single_service_item:hover {
+    box-shadow: 0 0 20px #555;
+}
+
